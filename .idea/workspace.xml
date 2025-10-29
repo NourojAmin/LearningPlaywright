@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11c15e21-49fb-439f-82a8-75d3328f0b68" name="Changes" comment="Python Basics D03">
-      <change afterPath="$PROJECT_DIR$/PytestBasics/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PytestBasics/test_2PyTestValidation.py" afterDir="false" />
+    <list default="true" id="11c15e21-49fb-439f-82a8-75d3328f0b68" name="Changes" comment="Python Basics D04 (Pytest)">
+      <change afterPath="$PROJECT_DIR$/Playwright/test_playwrightBasics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PytestBasics/testPyTestValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/PytestBasics/test_PyTestValidation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PytestBasics/test_PyTestValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/PytestBasics/test_PyTestValidation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +52,15 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for testPyTestValidation.test_initialCheck.executor": "Run",
     "Python tests.Python tests for testPyTestValidation.test_secondCheck.executor": "Run",
+    "Python tests.Python tests for test_PyTestValidation.test_secondCheck.executor": "Run",
+    "Python tests.Python tests for test_playwrightBasics.test_CoreLocators.executor": "Run",
+    "Python tests.Python tests for test_playwrightBasics.test_playwrightBasic.executor": "Run",
+    "Python tests.Python tests for test_playwrightBasics.test_playwrightShortcut.executor": "Run",
     "Python tests.Python tests in PytestBasics.executor": "Run",
     "Python tests.Python tests in test2PyTestValidation.py.executor": "Run",
     "Python tests.Python tests in testPyTestValidation.py.executor": "Run",
+    "Python tests.Python tests in test_PyTestValidation.py.executor": "Run",
+    "Python tests.Python tests in test_playwrightBasics.py.executor": "Run",
     "Python.Functions.executor": "Run",
     "Python.WhileLoop.executor": "Run",
     "Python.basicOOP.executor": "Run",
@@ -79,8 +84,8 @@
       <recent name="$PROJECT_DIR$/PythonBasics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in PytestBasics">
-    <configuration name="Python tests for PytestBasics.test_PyTestValidation.test_initialCheck" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_playwrightBasics.test_CoreLocators">
+    <configuration name="Python tests for test_PyTestValidation.test_secondCheck" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="LearningPlaywright" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,53 +96,53 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PytestBasics.test_PyTestValidation.test_initialCheck&quot;" />
+      <option name="_new_target" value="&quot;test_PyTestValidation.test_secondCheck&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for PytestBasics.test_PyTestValidation.test_secondCheck" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_playwrightBasics.test_CoreLocators" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="LearningPlaywright" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PytestBasics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Playwright" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PytestBasics.test_PyTestValidation.test_secondCheck&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_playwrightBasics.test_CoreLocators&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in PytestBasics" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_playwrightBasics.test_playwrightBasic" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="LearningPlaywright" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PytestBasics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Playwright" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/PytestBasics&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_playwrightBasics.test_playwrightBasic&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_2PyTestValidation.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_playwrightBasics.test_playwrightShortcut" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="LearningPlaywright" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PytestBasics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Playwright" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/PytestBasics/test_2PyTestValidation.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_playwrightBasics.test_playwrightShortcut&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in test_PyTestValidation.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -155,13 +160,28 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_playwrightBasics.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="LearningPlaywright" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Playwright" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Playwright/test_playwrightBasics.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in PytestBasics" />
+        <item itemvalue="Python tests.Python tests for test_playwrightBasics.test_playwrightShortcut" />
+        <item itemvalue="Python tests.Python tests for test_playwrightBasics.test_playwrightBasic" />
+        <item itemvalue="Python tests.Python tests in test_playwrightBasics.py" />
+        <item itemvalue="Python tests.Python tests for test_PyTestValidation.test_secondCheck" />
         <item itemvalue="Python tests.Python tests in test_PyTestValidation.py" />
-        <item itemvalue="Python tests.Python tests in test_2PyTestValidation.py" />
-        <item itemvalue="Python tests.Python tests for PytestBasics.test_PyTestValidation.test_initialCheck" />
-        <item itemvalue="Python tests.Python tests for PytestBasics.test_PyTestValidation.test_secondCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760987882837</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Python Basics D04 (Pytest)">
+      <option name="closed" value="true" />
+      <created>1761417936552</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761417936552</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,6 +264,23 @@
     <MESSAGE value="Python Basics" />
     <MESSAGE value="Python Basics D02" />
     <MESSAGE value="Python Basics D03" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python Basics D03" />
+    <MESSAGE value="Python Basics D04 (Pytest)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python Basics D04 (Pytest)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Playwright/test_playwrightBasics.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Playwright/test_playwrightBasics.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
